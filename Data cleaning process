@@ -1,0 +1,98 @@
+Course Case Study
+Moreno has assigned you the first question to answer: How do annual members and casual riders use Cyclistic bikes differently?
+
+You will produce a report with the following deliverables:
+1. A clear statement of the business task
+2. A description of all data sources used
+3. Documentation of any cleaning or manipulation of data
+4. A summary of your analysis
+5. Supporting visualizations and key findings
+6. Your top three recommendations based on your analysis
+
+Case Study Roadmap - Ask
+Guiding questions 
+● What is the problem you are trying to solve? Answer: How do annual members and casual riders use Cyclistic bikes differently?
+● How can your insights drive business decisions? Answer: When we understand how annual members and casual riders differ, then we can make marketing campaign that targets type of rider company wants to attract.
+Key tasks
+1. Identify the business task Answer: Understand the difference between casual and annual riders.
+2. Consider key stakeholders Answer: Cyclic executive team, Lily Moreno (director of marketing).
+Deliverable
+A clear statement of the business task Answer:  Understand the difference between casual and annual riders in order to make the right marketing campaign.
+
+Case Study Roadmap - Prepare
+Guiding questions
+● Where is your data located? Answer: Revived data trough course
+● How is the data organized? Answer: It’s organized in Excel table, with 13 columns and over 400k rows
+● Are there issues with bias or credibility in this data? Does your data ROCCC? Answer: I don’t think it’s bias and there is no issue with credibility because its first hand data. Reliable:yes, original:yes, comprehensive: maybe, current: its not current, first quarter of 2020, cited:no.
+● How are you addressing licensing, privacy, security, and accessibility? Answer: The data has been made available by Motivate International Inc. under this license.
+● How did you verify the data’s integrity? Answer: It’s legit with few minor input errors
+● How does it help you answer your question? Answer: It has relevant data about trips that members took
+● Are there any problems with the data? Answer: Yes, there are some input and type errors
+Key tasks
+1. Download data and store it appropriately. Answer: Done
+2. Identify how it’s organized. Answer: It’s organized in a way that one row of data is a single trip made by one member, columns show member id, when and where he took the bike and left it.
+3. Sort and filter the data. Answer: Done
+4. Determine the credibility of the data. Answer: It’s credible
+Deliverable
+A description of all data sources used  Answer: Excel table of trips taken by members of Cyclic company in first quarter of 2020.
+
+Case Study Roadmap - Process
+Guiding questions
+● What tools are you choosing and why? Answer: Sort and filter, change cell type, fix bad entry cells
+● Have you ensured your data’s integrity? Answer: Yes, made 2 copies
+● What steps have you taken to ensure that your data is clean? Answer: Sort and filter, removed lock from id column and fixed bad entrys, used len function,  used on top filter to show anomalies, removed blanks
+● How can you verify that your data is clean and ready to analyze? Answer: In the end i checked all columns and verified that it is clean
+● Have you documented your cleaning process so you can review and share those results? Answer: Documented in the of this roadmap
+Key tasks
+1. Check the data for errors. Answer: done
+2. Choose your tools. Answer: sort, filter, len function, blank cell search
+3. Transform the data so you can work with it effectively. Answer: edited bad cells, removed blank cell
+4. Document the cleaning process. Answer: Documented in the of this roadmap
+Deliverable
+Documentation of any cleaning or manipulation of data Answer: id_ride-len function, removed bad entry with e+number in the end, removed lock, removed commas and plus sings, removed  157EAA4C4A3C8D36 because end station is blank, new column named ride_id_len which counts number of characters in cell and put a filter to put on top from smallest to largest number. Then i added zeros at the end of ids to have 16 characters like the majority. Start time and end time was entered wrong, so i just changed them, i noticed that in the ride_lenght column where error was showing.
+
+Case Study Roadmap - Analyze
+Guiding questions
+● How should you organize your data to perform analysis on it? Answer: Organize it in Excel so the row is showing one individual trip
+● Has your data been properly formatted? Answer: data was not properly formatted for some cells
+● What surprises did you discover in the data? Answer: a lot of faulty entries 
+● What trends or relationships did you find in the data? Answer: Casual riders take longer trips, but member riders take more trips. Also casual riders take more trips on weekends and member riders during workdays.
+● How will these insights help answer your business questions? Answer: It will help with planning marketing strategy
+Key tasks
+1. Aggregate your data so it’s useful and accessible. Answer: done
+2. Organize and format your data. Answer: done
+3. Perform calculations. Answer: done
+4. Identify trends and relationships. Answer: done
+Deliverable
+A summary of your analysis Answer: Casual riders take longer trips, but member riders take more trips. Also casual riders take more trips on weekends and member riders during workdays.
+
+Case Study Roadmap - Share
+Guiding questions
+● Were you able to answer the question of how annual members and casual riders use Cyclistic bikes differently? Answer: Yes
+● What story does your data tell? Answer: How casual and annual members use bikes differently
+● How do your findings relate to your original question? Answer: Casual riders take longer trips, but member riders take more trips. Also casual riders take more trips on weekends and member riders during workdays.
+● Who is your audience? What is the best way to communicate with them? Answer: Cyclic executive team, Lily Moreno (director of marketing). Best to communicate findings with PowerPoint presentations
+● Can data visualization help you share your findings? Answer: Of course, better to understand correlation with graphs 
+● Is your presentation accessible to your audience? Answer: Didn’t made presentation
+
+Key tasks
+1. Determine the best way to share your findings. Answer: Trough PP presentation
+2. Create effective data visualizations. Answer: done, will try in tablou also
+3. Present your findings. Answer: will do to my fiance
+4. Ensure your work is accessible. Answer: will post on Kaggle and Github
+Deliverable
+Supporting visualizations and key findings Answer: done
+
+Case Study Roadmap - Act
+Guiding questions
+● What is your final conclusion based on your analysis? Answer: Casual riders take longer trips, but member riders take more trips. Also casual riders take more trips on weekends and member riders during workdays.
+● How could your team and business apply your insights? Answer: hard to say without pricing model
+● What next steps would you or your stakeholders take based on your findings? Answer: start planning new marketing strategy
+● Is there additional data you could use to expand on your findings? Answer: Yes, but i don’t have access to it, like pricing model, cash flow, assets and so on
+Key tasks
+1. Create your portfolio. Answer: done
+2. Add your case study. Answer: done
+3. Practice presenting your case study to a friend or family member. Answer: done
+Deliverable
+Your top three recommendations based on your analysis Answer: focus on making more annual members, introduce loyalty program, higher pricing on weekends and lower on weekdays.
+
